@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+	<body>
+	<nav data-activates="mobile-demo" class="button-collapse">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+  <script type="text/javascript">
+  	$(".button-collapse").sideNav();
+  </script>
+
+
+ <? var title="<i>HELLO</i>";  ?>
+     <h2> <?!= title; ?></h2>
+
+<!--<?! imagesource; ?>-->
+
+     
+<div class="slider">
+    <ul class="slides">
+      <li>
+       <?!= imagesource; ?>
+       <!-- <img src="https://drive.google.com/file/d/12HYVthb0PTY3j-hNeUeFY-xbtahugau3/view">-->
+         <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://drive.google.com/uc?export=view&id=1QpoWk4jpHaO3IfZ15TDBjoeimC_DJF0R" width="150px" , height="200px" , border="5",alt="abcdefgh"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://www.qries.com/images/banner_logo.png"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://www.qries.com/images/banner_logo.png"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+<script type="text/javascript">
+	 $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+</script>
+ <!--
+<center>
+	<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Drop DOwn</a>
+
+   Dropdown Structure 
+ <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul> 
+     
+</center>file:///C:/Users/Siddhesh%20M.Kadam/Desktop/Tutorials/index.html#two!-->
+
+
+
+<div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="images/1.jpg"></a>
+    <a class="carousel-item" href="#two!"><img src="images/2.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="images/3.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="images/4.jpg"></a>
+  </div>
+
+<script type="text/javascript">
+	$('.carousel.carousel-slider').carousel({full_width: true});
+</script>
+
+
+
+
+	</body>
+</html>
